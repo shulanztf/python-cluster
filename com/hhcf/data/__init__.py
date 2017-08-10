@@ -9,10 +9,10 @@ python 文件读取
 """
 import pandas
 
-reader = pandas.read_csv('D:\servicelog.csv', iterator=True)
+reader = pandas.read_csv('./servicelog.csv', iterator=True)
 try:
     df = reader.get_chunk(100 * 1000 * 1000)
-    # print(df)
+    print(df)
     # print(df.tail(10))
     # print(df.head(15))
     # print(df.items)
