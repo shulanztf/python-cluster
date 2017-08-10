@@ -1,0 +1,21 @@
+2017-08-10 15:39:34,570 - __init__.py:28 - hhcf - python ��־��info
+2017-08-10 15:39:34,570 - __init__.py:29 - hhcf - python ��־��DEBUG
+2017-08-10 15:47:45,807 - __init__.py:28 - hhcf - python 日志：info
+2017-08-10 15:47:45,807 - __init__.py:29 - hhcf - python 日志：DEBUG
+2017-08-10 15:54:17,369 - log_utils.py:28 - hhcf - python 日志：info
+2017-08-10 15:54:17,369 - log_utils.py:29 - hhcf - python 日志：DEBUG
+2017-08-10 16:00:35,921 - log_utils.py:28 - hhcf - python 日志：info
+2017-08-10 16:00:35,921 - log_utils.py:29 - hhcf - python 日志：DEBUG
+2017-08-10 16:00:35,921 - __init__.py:13 - hhcf - 引用log
+2017-08-10 16:05:08,674 - log_utils.py:29 - log_utils - python 日志：info
+2017-08-10 16:05:08,674 - log_utils.py:30 - log_utils - python 日志：DEBUG
+2017-08-10 16:05:08,674 - __init__.py:13 - log_utils - 引用log
+2017-08-10 16:06:36,561 - log_utils.py:29 - log_utils - python 日志：info
+2017-08-10 16:06:36,561 - log_utils.py:30 - log_utils - python 日志：DEBUG
+2017-08-10 16:11:26,414 - log_utils.py:32 - __main__ - python 日志：DEBUG $
+2017-08-10 16:11:59,131 - log_utils.py:29 - __main__ - python 日志：info
+2017-08-10 16:11:59,131 - log_utils.py:32 - __main__ - python 日志：DEBUG $
+2017-08-10 16:12:07,901 - log_utils.py:29 - __main__ - python 日志：info
+2017-08-10 16:12:07,901 - log_utils.py:32 - __main__ - python 日志：DEBUG $s
+2017-08-10 16:12:17,589 - log_utils.py:29 - __main__ - python 日志：info
+2017-08-10 16:12:17,589 - log_utils.py:32 - __main__ - python 日志：DEBUG :$s
