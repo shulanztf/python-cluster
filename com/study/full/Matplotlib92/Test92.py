@@ -17,7 +17,7 @@ plt.xlabel("x axis")
 plt.ylabel("y axis")
 
 # 绘制图形
-plt.plot(x, y, 'r')  # r颜色
+plt.plot(x, y, 'oc')  # r颜色
 
 # 显示图形
 plt.show()
