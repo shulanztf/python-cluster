@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe4fb7a1-4948-487f-92c7-40a673533974" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-cluster.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-cluster.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hhcf/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/hhcf/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hhcf/crawler/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/hhcf/crawler/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +31,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>np</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>numpy</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,11 +62,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gitpython_examples" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Test5">
-    <configuration name="Test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Test1092">
+    <configuration name="Test1091" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-cluster" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,12 +74,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/study/full" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/study/full/matrix" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/study/full/Test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/study/full/matrix/Test1091.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Test1092" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-cluster" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,34 +96,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/study/full" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/study/full/matrix" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/study/full/Test2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-cluster" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/study/full" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/study/full/Test3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/study/full/matrix/Test1092.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dkl_met" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Test7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-cluster" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,12 +140,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/hhcf/data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/study/full" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/hhcf/data/dkl_met.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/study/full/Test7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-cluster" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/study/full" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/study/full/Test8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,19 +177,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.dkl_met" />
-      <item itemvalue="Python.Test1" />
-      <item itemvalue="Python.Test2" />
-      <item itemvalue="Python.Test3" />
       <item itemvalue="Python.Test5" />
+      <item itemvalue="Python.Test7" />
+      <item itemvalue="Python.Test8" />
+      <item itemvalue="Python.Test1092" />
+      <item itemvalue="Python.Test1091" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Test1092" />
+        <item itemvalue="Python.Test1091" />
+        <item itemvalue="Python.Test8" />
+        <item itemvalue="Python.Test7" />
         <item itemvalue="Python.Test5" />
-        <item itemvalue="Python.Test1" />
-        <item itemvalue="Python.Test2" />
-        <item itemvalue="Python.Test3" />
-        <item itemvalue="Python.dkl_met" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +215,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502072369724</updated>
-      <workItem from="1576649219080" duration="8454000" />
+      <workItem from="1576649219080" duration="8641000" />
+      <workItem from="1576828929124" duration="495000" />
+      <workItem from="1576831954084" duration="1507000" />
+      <workItem from="1576897966213" duration="653000" />
+      <workItem from="1578387547305" duration="373000" />
+      <workItem from="1578387973754" duration="304000" />
+      <workItem from="1578388841290" duration="580000" />
+      <workItem from="1578389430031" duration="1844000" />
+      <workItem from="1578448673544" duration="4530000" />
     </task>
     <task id="LOCAL-00001" summary="python资料补充">
       <created>1502347874440</created>
@@ -264,36 +260,48 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1576650088538" />
-    <state width="1493" height="124" key="GridCell.Tab.0.bottom" timestamp="1576661641214">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1578391266776">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="124" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576661641214" />
-    <state width="1493" height="124" key="GridCell.Tab.0.center" timestamp="1576661641214">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578391266776" />
+    <state width="1478" height="349" key="GridCell.Tab.0.bottom" timestamp="1578452619298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="124" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576661641214" />
-    <state width="1493" height="124" key="GridCell.Tab.0.left" timestamp="1576661641214">
+    <state width="1478" height="349" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578452619298" />
+    <state width="1478" height="349" key="GridCell.Tab.0.center" timestamp="1578452619298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="124" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576661641214" />
-    <state width="1493" height="124" key="GridCell.Tab.0.right" timestamp="1576661641214">
+    <state width="1478" height="349" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578452619298" />
+    <state width="1478" height="349" key="GridCell.Tab.0.left" timestamp="1578452619298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="124" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576661641214" />
-    <state x="0" y="109" key="SettingsEditor" timestamp="1576649532888">
+    <state width="1478" height="349" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578452619298" />
+    <state width="1478" height="349" key="GridCell.Tab.0.right" timestamp="1578452619298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="109" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576649532888" />
-    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup" timestamp="1576659306495">
+    <state width="1478" height="349" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578452619298" />
+    <state x="0" y="109" key="SettingsEditor" timestamp="1576898150328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1576659306495" />
+    <state x="0" y="109" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576898150328" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1578448690316">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578448690316" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1578391086484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1578391086484" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_cluster$Test7.coverage" NAME="Test7 Coverage Results" MODIFIED="1578389026320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/study/full" />
     <SUITE FILE_PATH="coverage/python_cluster$Test3.coverage" NAME="Test3 Coverage Results" MODIFIED="1576656174929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/study/full" />
     <SUITE FILE_PATH="coverage/python_cluster$dkl_met.coverage" NAME="dkl_met Coverage Results" MODIFIED="1576650067579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hhcf/data" />
     <SUITE FILE_PATH="coverage/python_cluster$Test1.coverage" NAME="Test1 Coverage Results" MODIFIED="1576659534694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/study/full" />
-    <SUITE FILE_PATH="coverage/python_cluster$Test5.coverage" NAME="Test5 Coverage Results" MODIFIED="1576661626309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/study/full" />
+    <SUITE FILE_PATH="coverage/python_cluster$Test8.coverage" NAME="Test8 Coverage Results" MODIFIED="1578449580631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/study/full" />
+    <SUITE FILE_PATH="coverage/python_cluster$Test1091.coverage" NAME="Test1091 Coverage Results" MODIFIED="1578450718490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/study/full/matrix" />
+    <SUITE FILE_PATH="coverage/python_cluster$Test5.coverage" NAME="Test5 Coverage Results" MODIFIED="1576833153836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/study/full" />
+    <SUITE FILE_PATH="coverage/python_cluster$Test1092.coverage" NAME="Test1092 Coverage Results" MODIFIED="1578452619292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/study/full/matrix" />
     <SUITE FILE_PATH="coverage/python_cluster$Test2.coverage" NAME="Test2 Coverage Results" MODIFIED="1576659528859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/study/full" />
   </component>
 </project>
