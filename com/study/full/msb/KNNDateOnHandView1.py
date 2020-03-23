@@ -25,7 +25,7 @@ def file2matrix(filepath):
         # line = line.strip()  # 删除空白符（包括'\n', '\r',  '\t',  ' ')
         listFromLine = line.strip().split('\t')  # 按照('\t')进行拆分
         text = listFromLine[2:]
-        print("abc:",line,text)
+        # print("abc:",line,text)
         returnMat[index, :] = text  # 得到特征变量
         classLabelVector.append(float(listFromLine[0]))  # 得到目标分类变量
         index += 1
@@ -37,7 +37,7 @@ if __name__ == '__main__':
     fig = plt.figure()
     ax = fig.add_subplot(111)
     datingDataMat, datingLabels = file2matrix("D:\data\hlht\point\points-data-label\\points-label-train-20200319.txt")  # 括号是文件路径
-    print(datingDataMat[:10, :])  # 数据显示
+    # print(datingDataMat[:10, :])  # 数据显示
     ax.scatter(datingDataMat[:, 0], datingDataMat[:, 1], c=datingLabels)
     plt.xlabel("订单时间段(小时)", fontproperties=fp)
     plt.ylabel("时间窗口内订单数量", fontproperties=fp)
