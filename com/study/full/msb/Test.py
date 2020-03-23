@@ -24,22 +24,25 @@ dataSet = np.array([[15,16,7,18],[19,10,11,12],[34,213,21,1]])
 # print(numTestVecs)
 # print(numTestVecs)
 # print(dataSet[numTestVecs:3,:])
-# distance = dataSet.sum(axis=1)
-# print(distance ** 0.5)
-# print(distance.argsort())
+distance = dataSet.sum(axis=1)
+print(distance ** 0.5)
+sortedDistIndicies = distance.argsort()
+print(sortedDistIndicies)
+print(sortedDistIndicies[0])
+print(sortedDistIndicies[1])
+print(sortedDistIndicies[2])
 
 
-
-classCount = {}
-classCount[0] =5
-classCount[1] =12
-classCount[2] =3
-classCount[3] =9
-# print(classCount)
-sortedClassCount = sorted(classCount.items(), key=operator.itemgetter(1),reverse=True) # 各类别号次数排序
-print(sortedClassCount)
-print(sortedClassCount[0])
-print(sortedClassCount[0][0])
+# classCount = {}
+# classCount[0] =5
+# classCount[1] =12
+# classCount[2] =3
+# classCount[3] =9
+# # print(classCount)
+# sortedClassCount = sorted(classCount.items(), key=operator.itemgetter(1),reverse=True) # 各类别号次数排序
+# print(sortedClassCount)
+# print(sortedClassCount[0])
+# print(sortedClassCount[0][0])
 
 
 

@@ -1,6 +1,7 @@
 # coding:utf-8
 """
 Created on 2020年3月23日
+https://blog.csdn.net/NichChen/article/details/85108834 KNN（python实现）
 """
 
 import numpy as np
@@ -10,22 +11,23 @@ from array import array
 from matplotlib.font_manager import FontProperties
 
 """
-normData:归一化矩阵的某一行
-dataSet:归一化矩阵的部分行
+将每行特征的合计值，计算与其它行距离(欧式距离)，将最近的前k行特征,取频率最高的类别号
+normData:测试数据,归一化矩阵的某一行
+dataSet:训练数据,归一化矩阵的部分行
 labels:归一化矩阵的部分行，对应的类别号向量
-k:
+k:k值
 """
 def classify(normData, dataSet, labels, k):
     dataSetSize = dataSet.shape[0] #获取矩阵的行数
     diffMat = np.tile(normData, (dataSetSize,1)) - dataSet # 创建dataSet对应的矩阵，内容为normData行，并与dataSet相减
     sqDiffMat = diffMat ** 2 # diffMat矩阵开平方
     sqDistances = sqDiffMat.sum(axis = 1) # 矩阵内行元素相加，生成数组，长度=矩阵行数
-    distance = sqDistances ** 0.5 # 开方，0.5
+    distance = sqDistances ** 0.5 # 开方，计算欧式距离
     sortedDistIndicies = distance.argsort() # 正向排序，返回元素下标数组
     # classCount保存的K是魅力类型   V:在K个近邻中某一个类型的次数
     classCount = {} # 各类别号次数统计
     for i in range(k):
-        voteLabel = labels[sortedDistIndicies[i]] # 获取对应的类别号
+        voteLabel = labels[sortedDistIndicies[i]] # 获取前k个元素的下标，对应的类别号
         classCount[voteLabel] = classCount.get(voteLabel,0) + 1 # 对应的类别号递增1
     sortedClassCount = sorted(classCount.items(), key=operator.itemgetter(1),reverse=True) # classCount中，各类别号对应的次数，倒序排序
     return sortedClassCount[0][0] # 返回次数最多的类别号
