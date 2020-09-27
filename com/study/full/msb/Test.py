@@ -11,7 +11,24 @@ import operator
 
 # dataSet = np.zeros((3,5))
 # dataSet = np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12]])
-dataSet = np.array([[15,16,7,18],[19,10,11,12],[34,213,21,1]])
+# dataSet = np.array([[15,16,7,18],[19,10,11,12],[34,213,21,1]])
+dataSet1 = np.array([[1,2,3],
+                     [4,5,6]])
+dataSet2 = np.array([[7,8,9,10],
+                     [11,12,13,14],
+                     [15,16,17,18]])
+# dataSet2 = np.array([[7,8,9,10]])
+print(dataSet1.shape)
+print(dataSet2.shape)
+# dataSet3 = np.multiply(dataSet1,dataSet2) # 矩阵中元素的点乘,报错
+# dataSet3 = np.matmul(dataSet1,dataSet2) # 矩阵的乘法,np.dot()与np.matmul()是等价的,可行
+# [[ 74  80  86  92]
+#  [173 188 203 218]]
+dataSet3 = np.dot(dataSet1,dataSet2) # 可行
+# [[ 74  80  86  92]
+#  [173 188 203 218]]
+
+print(dataSet3)
 # print(dataSet)
 # print(dataSet.min(0))
 # print(dataSet.max(0))
@@ -24,13 +41,13 @@ dataSet = np.array([[15,16,7,18],[19,10,11,12],[34,213,21,1]])
 # print(numTestVecs)
 # print(numTestVecs)
 # print(dataSet[numTestVecs:3,:])
-distance = dataSet.sum(axis=1)
-print(distance ** 0.5)
-sortedDistIndicies = distance.argsort()
-print(sortedDistIndicies)
-print(sortedDistIndicies[0])
-print(sortedDistIndicies[1])
-print(sortedDistIndicies[2])
+# distance = dataSet.sum(axis=1)
+# print(distance ** 0.5)
+# sortedDistIndicies = distance.argsort()
+# print(sortedDistIndicies)
+# print(sortedDistIndicies[0])
+# print(sortedDistIndicies[1])
+# print(sortedDistIndicies[2])
 
 
 # classCount = {}
